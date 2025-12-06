@@ -1,3 +1,5 @@
+from dataclasses import replace
+
 from IPython.core.inputtransformer2 import TokenTransformBase
 from parso.python.tokenize import PythonToken
 
@@ -11,7 +13,7 @@ sub2=99
 sub3= 89
 sub4= 96
 Total= sub1 + sub2 + sub3 + sub4
-
+s3= "Pushkar "
 combine= f"{s1}, {s2}"
 
 print(combine)
@@ -65,6 +67,22 @@ print("Hello" not in s2)
 print("How" not in s1)
 print("Hello" not in s1)
 print("How" not in s2)
+
+# String Comparison
+
+print(s1 == s2)
+print(Total == sub1 + sub2 + sub3 + sub4)
+print(s3 == name) # "False" Because there is a space in s3 in the end.
+
+# Removing space from string "strip()" function removes the space at the start & end of the string.
+
+print(s3.strip())
+print(s3.strip() == name)
+
+# Replace part of the string with different another string. "replace (old value in quote or if variable present then without quote, new value within quote)
+
+print(s1.replace("Guys", "All"))
+
 
 
 
