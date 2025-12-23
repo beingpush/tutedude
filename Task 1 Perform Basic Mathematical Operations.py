@@ -1,5 +1,5 @@
-num1= float(input("Enter the first number: "))
-num2= float(input("Enter the first number: "))
+num1= float(input("Enter the First number: "))
+num2= float(input("Enter the Second number: "))
 
 #Addition
 
@@ -17,4 +17,4 @@ Multiplication= num1 * num2
 
 Division= num1 / num2
 
-print("The Addition is: ", Addition, "\nThe Substraction is: ", Substraction, "\nThe Multiplication is: ", Multiplication,"\nThe Division is: ", Division)
+print("The Addition is: ", Addition, "\nThe Substraction is: ", Substraction, "\nThe Multiplication is: ", Multiplication,"\nThe Division is: ", round(Division, 2))
