@@ -222,6 +222,30 @@ Final_output = (f"Occurrences of {Num} is {Result}")
 
 print(Final_output)
 
+# Min function
+# To check the Smallest value in given list.
+
+DAYS_IN_WEEK = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+print(f"Smallest Number in list is: {min(DAYS_IN_WEEK)}")
+
+# Max function
+# To check the Largest value in given list.
+
+DAYS_IN_WEEK = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+print(f"Largest Number in list is: {max(DAYS_IN_WEEK)}")
+
+# Sum function
+# To check the sum of values in given list.
+
+DAYS_IN_WEEK = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+print(f"The sum of values in list is: {sum(DAYS_IN_WEEK)}")
+
+
+
+
 
 
 
