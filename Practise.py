@@ -243,9 +243,16 @@ DAYS_IN_WEEK = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 print(f"The sum of values in list is: {sum(DAYS_IN_WEEK)}")
 
+# Nested list
+# To fetch nested list values.
 
+DAYS_IN_WEEK = [1, 2, 3, 4, 5, 6, 7, [1, 2, 3], 9, 10]
 
+print(DAYS_IN_WEEK[-3][0])
 
+DAYS_IN_WEEK = [1, 2, 3, 4, 5, 6, 7, [1, 2, 3, [2, 3, 4, 5, [1, "Pushkar", 3, 4]]], 9, 10]
+
+print(DAYS_IN_WEEK[-3][-1][-1][-3])
 
 
 
